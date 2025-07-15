@@ -89,3 +89,9 @@ body{
     pointer-events: auto;
     top:-84px
 }
+
+.icons a {
+    font-size: 22px;
+    color: #0984e3;
+    transition:  all .3s ease;
+}
