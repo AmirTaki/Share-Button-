@@ -30,3 +30,15 @@ body{
     cursor: pointer;
     box-shadow: 0 0 4px rgba(0, 0, 0, .5);
     transition: all .3s ease;
+}
+
+.main-box label::before{
+    content: "Cancel";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:0;
+    top:0;
+    background: #fff;
+    border-radius: 35px;
+}
